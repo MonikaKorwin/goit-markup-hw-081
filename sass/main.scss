@@ -1,0 +1,47 @@
+@import './base/container';
+@import './base/container-whatWeDo';
+@import './base/container-ourClients';
+
+@import './utils/variables';
+
+@import './components/logo';
+@import './layout/header';
+
+@import './layout/people';
+@import './components/_button-people';
+
+@import './layout/lorem-icons';
+@import './layout/lorem-text';
+
+@import './layout/whatwedo';
+
+@import './layout/team';
+@import './components/social-icon';
+
+@import './layout/our-clients';
+@import './components/our-clients-icon';
+
+
+@import './layout/footer-html';
+@import './components/logo-adress-footer';
+
+@import './layout/join-to-us';
+@import './components/social-icon-footer';
+
+@import './layout/newsletter';
+@import './components/button_newsletter';
+
+@import './components/_form.scss';
+@import './components/button-form-send';
+
+@import './layout/porfolio-filter-buttons';
+@import './components/button_portfolio';
+
+@import './layout/portfolio-filter-examples';
+@import './components/img-wrapper';
+
+@import './layout/portfolio-footer';
+@import './layout/portfolio-newsletter';
+
+
+

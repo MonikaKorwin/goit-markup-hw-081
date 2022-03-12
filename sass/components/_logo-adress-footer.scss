@@ -1,0 +1,25 @@
+.logo {
+  &__address {
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    /* left: 0px; */
+    font-style: none;
+    text-decoration: none;
+    font: none;
+  }
+  &__studio-footer {
+    text-decoration: none;
+    font-family: var(--socondary-font);
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.192;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    height: 252px;
+    background: #2f303a;
+    margin: 0 auto;
+    margin-top: 94px;
+  }
+}

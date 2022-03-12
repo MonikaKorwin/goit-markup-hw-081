@@ -1,0 +1,17 @@
+.filter {
+  margin: 0 auto;
+  align-items: center;
+
+  &__list-items {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    width: 572px;
+    height: 54px;
+    /* left: 510px; */
+    /* top: 174px; */
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 94px;
+  }
+}

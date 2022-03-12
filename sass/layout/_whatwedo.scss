@@ -1,0 +1,53 @@
+.whatWeDo {
+  height: 386px;
+  margin: 0 auto;
+  margin-top: 94px;
+
+  &__tittle {
+    margin: 0 auto;
+    margin-bottom: 50px;
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.1667;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+  }
+  &__item:not(:last-child) {
+    margin-right: 30px;
+  }
+  &__span-computer {
+    position: relative;
+    z-index: 30;
+    margin-left: 90px;
+    bottom: -27px;
+    width: 190px;
+    height: 16px;
+  }
+
+  &__span-mobile {
+    position: relative;
+    z-index: 30;
+    margin-left: 113px;
+    bottom: -27px;
+    width: 144px;
+    height: 16px;
+  }
+  .whatWeDo__span-content {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.142px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+}

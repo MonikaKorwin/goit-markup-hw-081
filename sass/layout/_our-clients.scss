@@ -1,0 +1,45 @@
+.clients {
+  &__tittle {
+    display: block;
+    margin: 0 auto;
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.666px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+  }
+  &__list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 94px;
+  }
+
+  &__link {
+    display: flex;
+    width: 170px;
+    height: 92px;
+    background-color: #ffffff;
+    border-width: 1px;
+    border-color: #afb1b8;
+    border-style: solid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+  }
+  &__link:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  &__link:hover,
+  &__link:focus {
+    border-color: var(--main-color);
+  }
+}

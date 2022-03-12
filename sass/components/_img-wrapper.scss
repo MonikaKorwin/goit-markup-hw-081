@@ -1,0 +1,34 @@
+.img-wrapper {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--main-color);
+  transform: translatey(100%);
+  transition: transform 250ms ease;
+}
+
+.filter__examples_images:hover .img-wrapper {
+  transform: translatey(0);
+}
+
+.img-wrapper > p {
+  width: 301px;
+  height: 196px;
+  padding-top: 49px;
+  padding-left: 29px;
+
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.555;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.portfolio-photos {
+  position: relative;
+  overflow: hidden;
+}

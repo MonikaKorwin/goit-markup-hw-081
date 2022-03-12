@@ -1,0 +1,29 @@
+.lorem__list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0 15px;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 94px;
+  margin-bottom: 30px;
+}
+
+.lorem__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.lorem__icons-link {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  background-color: #F5F4FA;
+  border-width:: 4px;
+  justify-content: center;
+  align-items: center;
+} 
+
+.lorem__icon{
+  width: 70px;
+  height: 70px;
+}
